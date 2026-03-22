@@ -1,0 +1,11 @@
+deal_id,account_name,segment,arr,acv,stage,close_date,is_renewal,churn_reason
+D001,Acme Corp,Enterprise,120000,120000,Closed Won,2024-01-15,false,
+D002,Beta Ltd,Mid-Market,36000,36000,Closed Won,2024-01-22,false,
+D003,Gamma Inc,SMB,12000,12000,Closed Lost,2024-02-01,false,Price
+D004,Delta Co,Enterprise,240000,240000,Closed Won,2024-02-10,false,
+D005,Epsilon SA,Mid-Market,48000,48000,Churned,2024-02-14,true,Competitor
+D006,Zeta Corp,Enterprise,180000,90000,Closed Won,2024-02-28,false,
+D007,Eta Ltd,SMB,9600,9600,Closed Lost,2024-03-05,false,Budget
+D008,Theta Inc,Mid-Market,60000,60000,Closed Won,2024-03-12,false,
+D009,Iota Co,Enterprise,300000,300000,Churned,2024-03-20,true,Product
+D010,Kappa SA,SMB,14400,14400,Closed Won,2024-03-31,false,
