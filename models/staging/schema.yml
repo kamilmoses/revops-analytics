@@ -1,0 +1,39 @@
+version: 2
+models:
+  - name: stg_deals
+    columns:
+      - name: deal_id
+        tests:
+          - unique
+          - not_null
+      - name: segment
+        tests: 
+          - accepted_values:
+              arguments:
+                values: ['Enterprise', 'Mid-Market', 'SMB']
+      - name: arr
+        tests:
+          - not_null
+      - name: acv 
+        tests:
+          - not_null
+      - name: stage
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Closed Won', 'Closed Lost', 'Churned']
+      - name: is_renewal
+        tests:
+          - accepted_values: 
+              arguments:
+                values: ['true', 'false']
+      - name: churn_reason
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Price', 'Competitor', 'Budget', 'Product']
+          - not_null:
+              arguments:
+                where: "stage = 'Churned'"
+    
+          
