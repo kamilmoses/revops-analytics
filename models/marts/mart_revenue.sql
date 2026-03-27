@@ -35,11 +35,11 @@ final AS (
         acv,
         close_date,
         is_renewal,
-        -- Window function: skumulowany ARR po dacie zamknięcia
+        -- Window function: cumulated ARR by close date
         SUM(arr) OVER (
             ORDER BY close_date
         ) AS cumulative_arr,
-        -- Window function: ranking dealów po ARR w ramach segmentu
+        -- Window function: deal ranking by segment
         RANK() OVER (
             PARTITION BY segment
             ORDER BY arr DESC
