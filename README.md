@@ -37,3 +37,7 @@ models/
   marts/      # business logic and metrics
 seeds/        # sample deal data (CSV)
 ```
+
+## Notes
+Built as a learning project to develop RevOps analytics skills. 
+Developed with the assistance of Claude (Anthropic) as a coding mentor.
