@@ -1,3 +1,9 @@
+-- Monitor Revenue performence of all Closed Won deals 
+-- showing cumulated ARR by date
+-- and ranking by segment
+
+
+-- Get required columns from staging
 WITH base AS (
     SELECT
         deal_id,
@@ -12,12 +18,14 @@ WITH base AS (
     FROM {{ ref('stg_deals') }}
 ),
 
+-- filter by Closed Won deals only
 closed_won AS (
     SELECT *
     FROM base
     WHERE stage = 'Closed Won'
 ),
 
+-- add cumulative_arr and ranking per segment
 final AS (
     SELECT
         deal_id,
