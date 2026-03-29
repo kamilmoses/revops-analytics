@@ -35,5 +35,62 @@ models:
           - not_null:
               arguments:
                 where: "stage = 'Churned'"
-    
-          
+  - name: stg_accounts
+    columns:
+      - name: account_id
+        tests:
+          - unique
+          - not_null
+      - name: industry
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Technology', 'Finance', 'Healthcare', 'Retail']
+  - name: stg_contacts
+    columns:
+      - name: contact_id
+        tests:
+          - not_null
+          - unique
+      - name: is_decision_maker
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['true', 'false']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

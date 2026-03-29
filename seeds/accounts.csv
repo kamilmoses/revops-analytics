@@ -1,0 +1,11 @@
+account_id,account_name,country,industry,account_created_date
+A001,Acme Corp,USA,Technology,2022-03-15
+A002,Beta Ltd,UK,Finance,2021-07-22
+A003,Gamma Inc,Germany,Healthcare,2023-01-10
+A004,Delta Co,USA,Technology,2020-11-05
+A005,Epsilon SA,France,Retail,2022-08-30
+A006,Zeta Corp,USA,Technology,2021-04-18
+A007,Eta Ltd,UK,Finance,2023-05-25
+A008,Theta Inc,Germany,Healthcare,2022-12-01
+A009,Iota Co,USA,Technology,2019-06-14
+A010,Kappa SA,France,Retail,2023-02-28

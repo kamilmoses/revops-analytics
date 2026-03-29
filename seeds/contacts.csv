@@ -1,0 +1,11 @@
+contact_id,account_id,contact_name,role,is_decision_maker
+C001,A001,John Smith,VP Sales,true
+C002,A002,Emma Jones,CFO,true
+C003,A003,Hans Mueller,CTO,true
+C004,A004,Sarah Connor,VP Sales,true
+C005,A005,Pierre Dupont,CEO,true
+C006,A006,Michael Brown,VP Sales,false
+C007,A007,Lucy Williams,CFO,true
+C008,A008,Klaus Schmidt,CTO,false
+C009,A009,Maria Garcia,CEO,true
+C010,A010,Sophie Martin,VP Sales,true
