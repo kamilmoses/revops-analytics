@@ -1,4 +1,4 @@
-
+--show all deals with additional account and contact details
 
 WITH all_deals AS (
     SELECT 
