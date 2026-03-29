@@ -14,6 +14,8 @@ Revenue analysis and monitoring project built with dbt and DuckDB to track compa
 - **mart_first_deals_by_segment** — first Closed Won deal per segment using ROW_NUMBER()
 - **mart_pipeline_summary** — monthly pipeline overview with Enterprise ARR share
 - **mart_account_ranking** — top accounts by Closed Won ARR with NTILE(2) percentile ranking
+- **mart_deal_profile** — deals with extended account and contact details 
+
 
 ## Data Quality
 9 automated tests covering: `unique`, `not_null`, `accepted_values`, and conditional `not_null` for optional fields.
