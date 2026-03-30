@@ -15,6 +15,8 @@ Revenue analysis and monitoring project built with dbt and DuckDB to track compa
 - **mart_pipeline_summary** — monthly pipeline overview with Enterprise ARR share
 - **mart_account_ranking** — top accounts by Closed Won ARR with NTILE(2) percentile ranking
 - **mart_deal_profile** — deals with extended account and contact details 
+- **mart_arr_trend** - month-over-month ARR delta showing revenue trends (previous and next months)x
+
 
 
 ## Data Quality
