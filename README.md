@@ -17,6 +17,7 @@ Revenue analysis and monitoring project built with dbt and DuckDB to track compa
 - **mart_deal_profile** — deals with extended account and contact details 
 - **mart_arr_trend** - month-over-month ARR delta showing revenue trends (previous and next months)
 - **mart_arr_by_segment_pivot** - -- monthly segment arr grouped by month for all Closed Won deals
+- **mart_sales_targets_unpivot** — demonstrates UNPIVOT transformation from wide to long format (quarterly targets per segment)
 
 
 
